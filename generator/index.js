@@ -8,10 +8,11 @@ module.exports = (api, options, rootOptions) => {
     // Render vuetify plugin file
     api.render(
       {
-        "./src/plugins/axios.js": "./templates/plugins/axios.js"
+        "./src/plugins/axios.js": "./templates/plugins/axios.ts"
       },
       options
     );
+    api.render({'./src/plugins/index.d.ts': './templates/plugins/index.d.ts'})
   
     const fs = require("fs");
     const helpers = require('./helpers')(api)
