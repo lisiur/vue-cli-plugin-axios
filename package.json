@@ -1,7 +1,7 @@
 {
-  "name": "vue-cli-plugin-axios",
+  "name": "vue-cli-plugin-axios-ts",
   "version": "0.0.4",
-  "description": "Vue-cli-3 plugin: axios",
+  "description": "Vue-cli-3 plugin: axios for ts",
   "main": "index.js",
   "scripts": {},
   "keywords": [
@@ -15,5 +15,9 @@
     "axios"
   ],
   "author": "Canh Kieu <minhcanhdn0704@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "axios": "^0.18.0",
+    "vue": "^2.5.17"
+  }
 }
