@@ -1,6 +1,6 @@
 {
   "name": "vue-cli-plugin-axios-ts",
-  "version": "0.0.4",
+  "version": "1.0.0",
   "description": "Vue-cli-3 plugin: axios for ts",
   "main": "index.js",
   "scripts": {},
