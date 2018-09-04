@@ -8,7 +8,7 @@ module.exports = (api, options, rootOptions) => {
     // Render vuetify plugin file
     api.render(
       {
-        "./src/plugins/axios.js": "./templates/plugins/axios.ts"
+        "./src/plugins/axios.ts": "./templates/plugins/axios.ts"
       },
       options
     );
